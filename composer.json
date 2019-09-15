@@ -1,0 +1,21 @@
+{
+    "name": "spudley/paginator",
+    "description": "A PHP class to paginate an array or iterable object.",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spudley\\Paginator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Spudley\\Paginator\\Test\\": "test/"
+        }
+    }
+}

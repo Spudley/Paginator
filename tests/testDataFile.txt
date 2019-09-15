@@ -1,0 +1,27 @@
+This is a test
+file with a number
+of lines of text
+that will be used as
+part of the test
+for the paginator
+class. This file will be
+loaded using the SPLFileObject class
+and will be passed into
+the paginator. This allows
+us to test an iterator type that is less
+flexible in that it
+does not allow reading backwards.
+Each line in this file will
+represent an element in
+the iterator. The paginator
+should be able to extract
+data for a given page number
+and given page length
+and produce the appropriate
+part of this file.
+The lines in
+this file are written
+in a broken form
+so that we can
+split this text over
+more lines.
